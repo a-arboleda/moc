@@ -1,0 +1,125 @@
+body {
+    background-color: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.blurb h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+
+}
+
+.content {
+    margin-top: 100px;
+}
+
+#mainNavbar .navbar-brand{
+    color: #EA1C2C;
+    font-size: 1.8rem;
+
+
+}
+
+#mainNavbar .nav-link{
+    color:white;
+    font-size: 1.8rem;
+}
+
+#mainNavbar .nav-link:hover{
+    color:#EA1C2C;
+}
+
+#mainNavbar{
+    font-size: 1.5 rem;
+    font-weight: 100;
+}
+
+#headingGroup span{
+    color:#EA1C2C;
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled{
+    background-color: rgb(222,192,222);
+    transition: background 500ms;
+
+}
+@media(max-width: 1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+
+/* ICONOS FOOTER */
+:root{
+    --linkedin: #0077b5;
+    --github: rgb(58, 24, 182);
+}
+
+.redes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.redes-container ul li {
+    display: inline-block;
+    padding: 0 5px;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0,0,0,.2);
+    transition: .3s;
+}
+
+
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,.4);
+    filter: none;
+}
+
+.redes-container ul li .linkedin:hover{
+    background: var(--linkedin);
+}
+
+.redes-container ul li .github:hover{
+    background: var(--github);
+}
+
+
+#contact:hover{
+    color:#EA1C2C;
+}
+/* FIN ICONOS FOOTER */
